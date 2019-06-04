@@ -1,6 +1,6 @@
 # springconsul
 Request URI for independent services.
-1) Student service : 
+1) Student service : http://localhost:9001/getport
 2) School Service: http://localhost:9010/getstudentserviceport
 3) Gateway Service: http://localhost:8061/school-service/getstudentserviceport
 
