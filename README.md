@@ -6,6 +6,7 @@ Request URI for independent services.
 
 Points:
 1) We can start consul by issuing the following command from the root path: consul agent -dev.
+2) We can access consul using http://localhost:8500
 2)  Use @Enablediscoveryclient annotation, so that the module is discoverable.
 3) Add below bean definition in the gateway to enable automatical detection of the registered (in consul) applications.
       @Bean
