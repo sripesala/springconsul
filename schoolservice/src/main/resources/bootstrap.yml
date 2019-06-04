@@ -1,0 +1,13 @@
+spring:
+ application: {name: 'school-service'}
+ cloud:
+  consul:
+   enabled: 'true'
+   host: http://localhost
+   port: 8500
+   config:
+        enabled: true
+        prefix: config/application
+        defaultContext: apps
+        profileSeparator: '::'
+   discovery: {healthCheckInterval: 300s}
